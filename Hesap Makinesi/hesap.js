@@ -10,9 +10,10 @@ function ekleSonuc(value) {
     console.log(value);
 }
 function islemCalistir(button) {
-    switch (button.value) {
+    console.log(button)
+    switch (button) {
         default:
-            ekleSonuc(button.value); 
+            ekleSonuc(button); 
           break;
         case '=':
           hesapla();
@@ -37,7 +38,7 @@ function hesapla() {
     let ifade = sonuc.textContent;
 
     try {
-        sonuc.textContent = math.evaluate(ifade).toString();
+        sonuc.textContent = math.evaluate(ifade);
     } catch (error) {
         sonuc.textContent = 'Error';
     }
