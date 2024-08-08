@@ -1,0 +1,45 @@
+*{
+    font-family: sans-serif;
+    
+    
+}
+html{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.row{
+    height:100px;
+    width: 400px;
+    
+  }
+.custom-align-right {
+        text-align: right; 
+        padding-top: 4%;
+        font-size: 48px;
+        
+      }
+.text-color {
+        color: white; 
+}
+
+.rounded-circle{
+   width: 70px; /* Buton genişliği */
+      height: 70px; /* Buton yüksekliği */
+      border-radius: 50%; /* Daire şeklinde yuvarlama */
+      font-size: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+}
+.btn-rounded-extended {
+    width: 165px; /* Buton genişliği */
+    height: 70px; /* Buton yüksekliği */
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
